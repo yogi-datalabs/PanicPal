@@ -1,0 +1,23 @@
+# Python venv
+.venv/
+venv/
+
+# Persona / Sensitive Guidance
+persona_prompt.txt
+
+# Data folder (private chats and anything sensitive)
+data/
+chats/
+datasets/
+
+# Model outputs
+*.sqlite
+*.db
+*.json
+
+# Logs
+*.log
+
+# OS stuff
+.DS_Store
+Thumbs.db
