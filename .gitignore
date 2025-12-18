@@ -2,22 +2,37 @@
 .venv/
 venv/
 
-# Persona / Sensitive Guidance
-persona_prompt.txt
+# IDE / Editor settings
+.idea/
+.vscode/
 
-# Data folder (private chats and anything sensitive)
+# Python byte-compiled files & caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Env files (secrets / local settings)
+.env
+.env.*
+
+# Persona / Sensitive Guidance (keep private)
+persona_prompt.txt
+persona_prompt_V1.txt
+persona_prompt_V*.txt
+
+# Data folders (private chats and anything sensitive)
 data/
 chats/
 datasets/
+raw_chats/
 
-# Model outputs
+# Local DBs / local state
 *.sqlite
 *.db
-*.json
 
 # Logs
 *.log
 
-# OS stuff
+# OS junk
 .DS_Store
 Thumbs.db
